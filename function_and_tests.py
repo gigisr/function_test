@@ -6,6 +6,7 @@ import pandas as pd
 # Define function & alternative
 ## No error checking on the inputs as the problem stipulates very specific 
 ## inputs with no room for deviation
+# Big O notation: O(n log n)
 def func_slow(list_vals):
     """
     This function works well if there are very few individual values
@@ -14,6 +15,7 @@ def func_slow(list_vals):
     return list_solutions[0]
 
 
+# Big O notation: O(log n)
 def func_fast(list_vals):
     """
     This works well regardless of the individual values count
